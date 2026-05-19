@@ -1,6 +1,7 @@
 import './App.css'
 import Res from './components/basic/Question03';
 import StyleBox from './components/basic/Question04';
+import DynamicImage from './components/Question05';
 
 function App() {
   
@@ -9,6 +10,7 @@ function App() {
     <>
       <Res />
       <StyleBox></StyleBox>
+      <DynamicImage />
     </>
   )
 }
