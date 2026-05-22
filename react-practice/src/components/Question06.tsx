@@ -1,13 +1,14 @@
-import Greeting form "../Greeting";
+import Greeting from "./basic/Greeting";
 
 function Question06() {
-    const names = [""]
-
-    return (
-        <>
-        <Greeting name="山田"/>
-        <Greeting name="すずき"/>
-        <Greeting name="たけだ"/>
-        </>
+    const names = ["山田","鈴木","佐藤"];
+    return(
+        <div>
+            {names.map((name,index) => (
+               <Greeting key={index} name={name}/>
+            ))}
+        </div>
     )
 }
+
+export  default Question06;

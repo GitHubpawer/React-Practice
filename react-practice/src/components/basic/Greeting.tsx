@@ -1,10 +1,15 @@
 type GreetingProps = {
     name: string;
 };
-function Greeting(props: { name: string }) {
-    return (
+
+function Greeting(props:GreetingProps) {
+    return(
         <>
-            <h1>こんにちは{props.name}さん</h1>
+        <div>こんにちは、{props.name}</div>
+        <div>こんにちは、{props.name}</div>
+        <div>こんにちは、{props.name}</div>
         </>
     )
 }
+
+export default Greeting;

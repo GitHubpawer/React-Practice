@@ -1,14 +1,13 @@
 import './App.css'
-import Greeting from './components/Question06'
+import Question06 from './components/Question06';
+
 
 function App() {
-  
-
   return (
     <>
-      <Greeting />
+      <Question06 />
     </>
   )
 }
 
-export default App
+export default App;
